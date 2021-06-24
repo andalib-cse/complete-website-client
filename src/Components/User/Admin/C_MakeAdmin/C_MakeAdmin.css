@@ -1,0 +1,48 @@
+.admin_making_area {
+    width           : 95%;
+    height          : 400px;
+    background-color: white;
+    border-radius   : 1em;
+    margin          : 2em auto;
+    padding         : 2em;
+}
+
+.admin_making_input {
+    display    : flex;
+    align-items: flex-end;
+}
+
+.input_flex {
+    display       : flex;
+    flex-direction: column;
+    margin-right  : .8em;
+}
+
+.input_flex label {
+    font-size: 1.5em;
+}
+
+#admin_email {
+    padding   : .3em;
+    width     : 400px;
+    font-size : 1.5em;
+    margin-top: .5em;
+    outline   : 0;
+}
+
+.make_admin_submit_btn {
+    cursor          : pointer;
+    width           : 130px;
+    padding         : .5em;
+    border-radius   : .5em;
+    border          : 0;
+    outline         : 0;
+    background-color: #005691;
+    color           : white;
+    font-size       : 22px;
+    transition      : .2s ease;
+}
+
+.make_admin_submit_btn:hover {
+    box-shadow: 2px 2px 10px 0px #005691;
+}

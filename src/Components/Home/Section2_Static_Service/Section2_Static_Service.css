@@ -1,0 +1,94 @@
+.running_service_area {
+  margin-top: 1em;
+  width: 100vw;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Nunito;
+}
+
+.static_title h4 {
+  font-size: 1.8em;
+  font-weight: 700;
+
+}
+
+.static_title h5 {
+  font-size: 2em;
+  color: #f3788d;
+}
+
+.service_thumbnail_container {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service_thumbnail {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex: 1 300px;
+  margin: 1em 0em;
+}
+
+.service_thumbnail img {
+  border-radius: 10px;
+  width: 90%;
+  margin-bottom: 0.7em;
+}
+
+.service_thumbnail > * {
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+/* ========================= */
+/* Image Hover Effect Circle */
+/* ========================= */
+.hover_effect figure {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.hover_effect figure::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius    : 100%; */
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hover_effect figure:hover::before {
+  animation: circle 0.75s;
+}
+
+@keyframes circle {
+  0% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}

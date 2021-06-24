@@ -1,0 +1,78 @@
+/* ######################### */
+/*        Table Start        */
+/* ######################### */
+
+.admin_table_service_list {
+
+    margin          : 2em auto;
+    cursor          : pointer;
+    background-color: white;
+    border-collapse : collapse;
+    font-size       : 1.5em;
+}
+
+.admin_table_service_list th {
+    padding         : 1em;
+    background-color: cadetblue;
+    text-align      : left;
+}
+
+.admin_table_service_list td {
+    border : 1px solid #ddd;
+    padding: .2em 1em;
+}
+
+tr th:first-child {
+    border-top-left-radius      : 10px;
+    /* border-bottom-left-radius: 10px; */
+}
+
+tr th:last-child {
+    border-top-right-radius      : 10px;
+    /* border-bottom-right-radius: 10px; */
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* ######################### */
+/*        Table END        */
+/* ######################### */
+
+
+select {
+    padding      : .5em;
+    border       : 0;
+    outline      : 0;
+    border-radius: 10px;
+    font-size    : 1em;
+    font-family  : Cambria;
+    cursor       : pointer;
+}
+
+.pending {
+    color: red;
+}
+
+.on_going {
+    color: #f5a106;
+}
+
+.done {
+    color: #009444;
+}
+
+table tr td img {
+    width: 1.5em;
+}
+table tr td  {
+    text-align: center;
+}
+
+.delete_img{
+    transition: .2s ease-in-out;
+}
+.delete_img:hover{
+    box-shadow: 0 0 .8em 0 red;
+}

@@ -1,0 +1,102 @@
+:root {
+    --mainColor: #005691;
+}
+
+.service_input_area {
+    width           : 95%;
+    height          : 600px;
+    background-color: white;
+    border-radius   : 1em;
+    margin          : 2em auto;
+    display         : flex;
+    flex-flow       : wrap;
+    justify-content : space-around;
+    position        : relative;
+}
+
+.service_input_area>* {
+    flex-basis       : 45%;
+    margin           : 2em;
+    /* display       : flex;
+    flex-direction   : column; */
+}
+
+.input_flex label {
+    margin-bottom: .5em;
+    font-size    : 1.5em;
+}
+
+#service_name,
+#service_price,
+#description {
+    padding  : .3em;
+    font-size: 1.5em;
+    outline  : 0;
+}
+
+.inputFile {
+    display: none;
+}
+
+.inputFileLabel>img {
+    width       : 15%;
+    color       : var(--mainColor);
+    margin-right: .3em;
+}
+
+.inputFileLabel {
+    cursor          : pointer;
+    border          : 1px solid var(--mainColor);
+    border-radius   : 8px;
+    color           : var(--mainColor);
+    padding         : .3em 1.5em;
+    width           : 280px;
+    display         : flex;
+    align-items     : center;
+    background-color: #EDEAFF;
+    transition      : .2s ease;
+}
+
+.inputFileLabel:hover {
+    box-shadow: 2px 2px 8px 0px #6946f466;
+}
+
+.btn_submit {
+    position        : absolute;
+    cursor          : pointer;
+    width           : 120px;
+    padding         : .5em;
+    right           : 0;
+    bottom          : -3em;
+    border-radius   : .5em;
+    border          : 0;
+    outline         : 0;
+    background-color: var(--mainColor);
+    color           : white;
+    font-size       : 22px;
+    transition      : .2s ease;
+}
+
+.btn_submit:hover {
+    box-shadow: 2px 2px 10px 0px var(--mainColor);
+}
+
+
+.spinnerLoading {
+    display        : flex;
+    justify-content: center;
+}
+
+input,
+textarea {
+    caret-color: red;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--mainColor);
+}
+
+input[type="radio"]:checked+label {
+    color: var(--mainColor);
+}

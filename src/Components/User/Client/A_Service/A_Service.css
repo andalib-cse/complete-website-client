@@ -1,0 +1,93 @@
+.user_service_area,
+.review_area {
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    padding       : 1.5em;
+    width         : 500px;
+}
+
+.user_input {
+    width        : 450px;
+    padding      : .7em 1em;
+    margin-bottom: 1em;
+    font-size    : 1.2em;
+    outline      : 0;
+    border       : 0;
+}
+
+.user_input::placeholder {
+    color : #F3788D;
+}
+
+
+.user_card {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.user_card>* {
+    width: 48%;
+}
+
+.payment_method {
+
+    display      : flex;
+    align-items  : center;
+    margin-bottom: 1em;
+}
+
+.payment_method label {
+    cursor      : pointer;
+    display     : flex;
+    align-items : center;
+    margin-right: 2em;
+    width       : 150px;
+}
+
+.payment_method label img {
+    width : 20%;
+    margin: .5em;
+}
+
+.user_payment_amount {
+    width          : 100%;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.client_submit_btn {
+    cursor          : pointer;
+    width           : 120px;
+    padding         : .5em;
+    border-radius   : .5em;
+    border          : 0;
+    outline         : 0;
+    background-color: #F3788D;
+    color           : white;
+    font-size       : 22px;
+    transition      : .2s ease;
+}
+
+.client_submit_btn:hover {
+    box-shadow: 2px 2px 10px 0px #F3788D;
+}
+
+.fl_right {
+    align-self: flex-end;
+}
+
+.service_options {
+    width          : 450px;
+    display        : flex;
+    justify-content: space-between;
+}
+
+.serviceName {
+    width: 280px;
+}
+
+.servicePrice {
+    width: 150px;
+}

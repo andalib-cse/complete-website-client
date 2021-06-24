@@ -1,0 +1,66 @@
+.homeHeader {
+    margin         : 1em;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.logo img {
+    width: 20em;
+}
+
+.homeNavigation ul {
+    display   : flex;
+    flex-wrap : wrap;
+    text-align: center;
+}
+
+.homeNavigation ul li {
+    cursor    : pointer;
+    padding   : 1em .5em;
+    transition: .2s ease;
+}
+
+.homeNavigation ul li a {
+    font-size: 1.5em;
+    padding  : .5em .8em;
+    color    : #000;
+}
+
+.homeNavigation ul li>.active {
+    color: white;
+}
+
+.active,
+.homeNavigation ul li a:hover {
+    color           : white;
+    background-color: #F3788D;
+    border-radius   : 5px;
+    text-decoration : none;
+}
+
+
+#check_box {
+    display: none;
+}
+
+.check_box_label {
+    font-size: 35px;
+    cursor   : pointer;
+    display  : none;
+}
+
+@media (max-width: 1260px) {
+    .homeHeader {
+        justify-content: center;
+    }
+
+    .homeNavigation ul {
+        margin-top: 1.5em;
+    }
+
+    .homeNavigation ul li {
+        flex: 1 160px;
+    }
+}

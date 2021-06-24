@@ -1,0 +1,87 @@
+.client_service_container {
+    width: 98%;
+
+    display        : flex;
+    flex-wrap      : wrap;
+    align-items    : flex-start;
+    justify-content: flex-start;
+
+}
+
+.service_box {
+    width           : 400px;
+    height          : 250px;
+    background-color: white;
+    margin          : 1.5em;
+    margin-right    : 0;
+    padding         : 1em;
+    border-radius   : 15px;
+    display         : flex;
+    flex-direction  : column;
+
+}
+
+.service_status {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : flex-start;
+    margin-bottom  : 1.5em;
+}
+
+.service_status img {
+    width     : 20%;
+    transition: transform 1.5s;
+}
+
+.service_status img:hover {
+    transform: rotate(360deg);
+}
+
+.service_info h4 {
+    margin-bottom : .5em;
+    letter-spacing: .4px;
+    font-size     : 1.5em;
+}
+
+.service_info p {
+    letter-spacing: .4px;
+}
+
+.status {
+    cursor       : pointer;
+    border       : 0;
+    outline      : 0;
+    width        : 125px;
+    padding      : .5em 1em;
+    border-radius: 5px;
+    font-size    : 1.2em;
+    transition   : .2s ease;
+}
+
+.pending {
+    background-color: #FFE1E3;
+    color           : #D95859;
+
+}
+
+.pending:hover {
+    box-shadow: 0 0 5px 0 #D95859;
+}
+
+.done {
+    background-color: #C6FFE0;
+    color           : #009444;
+}
+
+.done:hover {
+    box-shadow: 0 0 5px 0 #009444;
+}
+
+.on_going {
+    background-color: #e9d4b0;
+    color           : #5e3602;
+}
+
+.on_going:hover {
+    box-shadow: 0 0 5px 0 #d89c2d;
+}

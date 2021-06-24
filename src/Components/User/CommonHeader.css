@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.main_container_admin {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Nunito;
+}
+
+.commonHeading {
+  flex: 1 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.logo > img {
+  width: 85%;
+}
+
+/* ######################## */
+/* Menu Section Style Start */
+/* ######################## */
+.admin_link_icon {
+  width: 10%;
+  margin-right: 0.5em;
+}
+
+.client_link_icon {
+  width: 15%;
+  margin-right: 0.5em;
+}
+
+.admin_menu_list > a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3em;
+  padding: 1em 3em 1em 2em;
+  border-top     : .5px dotted transparent;
+  border-bottom  : .5px dotted transparent;
+}
+
+.admin_menu_list > a:hover {
+
+  background: #f5f6fa;
+  text-decoration: none;
+  border-top     : .5px dotted #F3788D;
+  border-bottom  : .5px dotted #F3788D;
+}
+
+.admin_menu_list > a:focus {
+  background: #f5f6fa;
+  /* border-top   : 1px dotted black;
+    border-bottom   : 1px dotted black;
+    border-left     : 1px dotted black; */
+}
+
+.link_icon:hover {
+  color: red;
+}
+
+.heading_area {
+  flex: 1 80%;
+  display: flex;
+  flex-flow: column;
+}
+
+.heading_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  height: 5em;
+  font-size: 1.3em;
+}
+
+.titleText {
+  color: #f3788d;
+  font-weight: 700;
+}
+
+.admin_name {
+  color: tomato;
+}
+
+.client_name {
+  color: #f3788d;
+}
+
+/* ################################################ */
+/* Every Page Common Area, But Components Different */
+/* ################################################ */
+.interaction_area {
+  background-color: #f4f7fc;
+  height: 90vh;
+}
