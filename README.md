@@ -1,4 +1,4 @@
-# React App <|> [Live Link](https://girlspersonabd.web.app)
+# Girls Persona BD | React App <|> [Live Link](https://girlspersonabd.web.app)
 
 ## Topic of Focus:
 - Responsive
