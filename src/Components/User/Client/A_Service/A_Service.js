@@ -5,10 +5,9 @@ import payPal from '../../../../img/client/payPal.png';
 import Header from '../../Header/Header';
 import api from '../../../BaseURL';
 import { useForm } from "react-hook-form";
-import { useParams } from 'react-router';
 import { UserLoginContext } from '../../../Context/UserLoginContext';
-import './A_Service.css';
 import { useHistory } from 'react-router-dom';
+import './A_Service.css';
 
 
 const A_Service = () => {
@@ -42,7 +41,7 @@ const A_Service = () => {
     return (
 
         <div className="main_container_admin">
-
+            
             <ClientMenu />
 
             <main className="heading_area">

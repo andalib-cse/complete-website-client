@@ -1,10 +1,4 @@
-import React from 'react';
 import './Section2_Static_Service.css';
-
-import mobile1 from '../../../img/mobile1.jpg';
-import mobile2 from '../../../img/mobile2.jpg';
-import laptop from '../../../img/laptop.jpeg';
-
 
 const Section2_Static_Service = () => {
     return (
